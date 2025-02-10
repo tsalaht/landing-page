@@ -1,6 +1,7 @@
 import Image, { StaticImageData } from "next/image";
-import Right_arrow from "@/app/assets/icons/rightArrow.svg"; // Default icon
-import classNames from "classnames"; // Utility for conditionally joining class names
+import Right_arrow from "@/app/assets/icons/rightArrow.svg";
+import classNames from "classnames";
+import { useTranslation } from "react-i18next";
 
 interface DynamicButtonProps {
   text?: string;
@@ -15,6 +16,8 @@ const NavbarButtons = ({
   backgroundColor = "bg-secondary_colar",
   iconSrc = Right_arrow,
 }: DynamicButtonProps) => {
+  const { i18n } = useTranslation();
+
   // Define hover classes based on the current background color
   const hoverStyles =
     backgroundColor === "bg-secondary_colar" || backgroundColor === "bg-[#FFCA64]"
@@ -27,9 +30,12 @@ const NavbarButtons = ({
     <button
       role="button"
       className={classNames(
-        `rounded-md flex gap-1 items-center px-6 py-[13.5px] cursor-pointer relative overflow-hidden group transition-all duration-300`,
+        `rounded-md flex gap-1 items-center px-6 py-[10px] cursor-pointer relative overflow-hidden group transition-all duration-300`,
         backgroundColor,
-        hoverStyles
+        hoverStyles,
+        {
+          "flex-row-reverse": i18n.language === "ar",
+        }
       )}
     >
       {/* Hover Animated Text */}
@@ -39,11 +45,17 @@ const NavbarButtons = ({
         {text}
       </p>
       {/* Main Button Text */}
-      <p className={`text-lg ${textColor} font-semibold cursor-pointer`}>
+      <p className={`text-[16px] ${textColor} font-medium cursor-pointer leading-[160%]`}>
         {text}
       </p>
       {iconSrc && (
-        <Image src={iconSrc} alt="Button Icon" className="w-6 h-6" />
+        <Image
+          src={iconSrc}
+          alt="Button Icon"
+          className={classNames("w-[16px] h-[16px] transition-transform", {
+            "rotate-180": i18n.language === "ar",
+          })}
+        />
       )}
     </button>
   );

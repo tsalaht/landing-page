@@ -22,7 +22,24 @@
   font-weight: 800;
   font-style: normal;
 }
-
+@font-face {
+  font-family: 'GE SS Two';
+  src: url('/assets/fonts/GE-SS-Two-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GE SS Two';
+  src: url('/assets/fonts/GE-SS-Two-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GE SS Two';
+  src: url('/assets/fonts/GE-SS-Two-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
 body {
     font-family: var(--font-syne), sans-serif;
   }

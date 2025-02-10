@@ -7,8 +7,8 @@ import NavbarButtons from "../atoms/NavbarButtons";
 
 export default function Packages() {
   return (
-    <div className="w-full px-4 py-10 md:px-[120px] md:py-20">
-      <div className="w-full items-center justify-center flex flex-col mb-8">
+    <div className="w-full px-4 py-10 md:px-[120px] md:pb-20">
+      <div className="w-full items-center justify-center flex flex-col mb-[10px]">
         <h1 className="text-2xl md:text-[40px] text-base_black font-bold text-center">
           Packages
         </h1>
@@ -31,23 +31,23 @@ export default function Packages() {
           </p>
         </div>
 
-        <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4 md:gap-1">
-          <Image src={LeftEagle} alt="Left" />
-          <div className="flex gap-4 mt-[-30px] md:mt-[-50px]">
-            <input
-              type="text"
-              placeholder="Enter the coupon"
-              className="pl-4 py-[13px] rounded-[3px] focus:outline-0 border-[1px] border-[#373E4F] w-full md:w-auto"
-            />
-            <button role="button" className="rounded-md px-6 py-2 bg-primary_colar">
-              <p className="text-base_white text-sm md:text-lg font-semibold">Use Coupon</p>
-            </button>
-          </div>
-          <Image src={righttEagle} alt="Right" />
-        </div>
+        <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4 md:gap-1 relative z-10 mt-[-100px]">
+  <Image src={LeftEagle} alt="Left" className="z-0" />
+  <div className="flex gap-4 mt-[-30px] md:mt-[-50px]">
+    <input
+      type="text"
+      placeholder="Enter the coupon"
+      className="pl-4 py-[13px] rounded-[3px] focus:outline-0 border-[1px] border-[#373E4F] w-full md:w-auto"
+    />
+    <button role="button" className="rounded-md px-6 py-2 bg-primary_colar">
+      <p className="text-base_white text-sm md:text-lg font-semibold">Use Coupon</p>
+    </button>
+  </div>
+  <Image src={righttEagle} alt="Right" />
+</div>
       </div>
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-3 items-center gap-6 mt-10">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 items-center gap-6 mt-[-100px] z-30 relative bg-white">
         {/* Card1 */}
         <div className="w-full rounded-[3px] border-[1px] border-[#1B223C] p-6">
           <p className="text-xl md:text-2xl font-medium text-[#6B6566] mb-4">

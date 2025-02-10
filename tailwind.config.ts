@@ -26,7 +26,7 @@ export default {
         'custom-gradien2': 'linear-gradient(240deg, #FFF -1.37%, #FFF 100.15%)',
         'custom-gradien3': 'linear-gradient(270deg, #FF7AD1 0%, #FFCA64 40%, rgba(105, 43, 239, 0.00) 100%)',
         'custom-gradien4': 'linear-gradient(90deg, rgba(105, 43, 239, 0) 0%, #FF7AD1 23.86%, #FFCA64 67.33%, rgba(105, 43, 239, 0) 100%)',
-        'custom-gradien5': 'linear-gradient(30deg, #373E4F 0%, #1B223C 100%)',
+        'custom-gradien5': 'linear-gradient(180deg, #373E4F 0%, #1B223C 100%)',
         
       },
       fontFamily: {
@@ -34,5 +34,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/line-clamp')],
 } satisfies Config;

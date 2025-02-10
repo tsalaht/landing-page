@@ -1,4 +1,123 @@
 {
-    "welcome": "Welcome to our site!",
-    "about": "About us"
-  }
+  "logo_alt": "Logo",
+  "navbar": {
+    "features": "Features",
+    "solutions": "Solutions",
+    "packages": "Packages",
+    "academy": "Our Academy"
+  },
+  "language_toggle_icon_alt": "World Icon",
+  "login": "Login",
+  "start_now": "Start Now for Free",
+  "hero": {
+    "highlight": "AI-Powered",
+    "title": "Platform for Content Writing Projects",
+    "description": "AI-powered content creation and marketing for fast, high-quality results.",
+    "cta": "Start 3 Days Free Trial",
+    "noCreditCard": "No credit card required",
+    "playButton": "Play",
+    "coverImage": "Cover Image"
+  },
+  "choice": {
+    "title": "Mutqin is your first choice for content writing!",
+    "description": "At Mutqin, we empower you to produce high-quality content at lightning speed, blending efficiency with effectiveness across a diverse range of writing styles and formats. Our commitment to accuracy is unwavering, upheld through meticulous periodic reviews that refine and perfect every piece.",
+    "button": "Our Ai Solutions"
+  },
+  "features": {
+    "title": "Features",
+    "description": "We offer a unique set of features that meet the needs of individuals and businesses in writing content using artificial intelligence.",
+    "advancedAISolutions": "Advanced AI Solutions",
+    "advancedAISolutionsDescription": "Cutting-edge AI solutions to streamline your content creation process and boost productivity.",
+    "supportAllContent": "Support all types of content",
+    "supportAllContentDescription": "Whether you need to write articles, social media posts, advertising copy, or even prepare reports and reviews, the site offers you a variety of options to meet your needs.",
+    "advancedProofreading": "Advanced proofreading",
+    "advancedProofreadingDescription": "We offer powerful proofreading tools that ensure content is free of grammatical and spelling errors, adding professionalism to written texts.",
+    "customTemplates": "Custom templates",
+    "customTemplatesDescription": "The site has a rich library of templates for each type of content, helping you save time and effort in writing texts.",
+    "integration": "Integration with the latest AI technologies",
+    "integrationDescription": "We provide accurate and fast results thanks to our use of the latest AI algorithms, ensuring improved content quality while saving time.",
+    "trialButton": "Start 3 Days Free Trial"
+  },
+  "everything_title": "Everything you need to write and manage content in one place!",
+  "everything_description": "Whether you're managing a website, handling social media, or optimizing for SEO, we're here to support you at every stage of your journey.",
+  "social_media_title": "Writing different types of content for social media",
+  "social_media_description": "Create platform-specific content with trend-based ideas. Develop a structured content calendar for consistent posting.",
+  "social_media_button": "Writing for Social Media",
+  "seo_article_title": "SEO-Optimized Article Writing for Better Rankings",
+  "seo_article_description": "Write well-structured articles with strategic keywords and clear formatting. Enhance readability and audience engagement for better rankings.",
+  "seo_article_button": "Article Writing & SEO",
+  "proofreading_title": "Comprehensive Proofreading for Error-Free Content",
+  "proofreading_description": "Ensure flawless writing by refining grammar, clarity, and style. Support classical and colloquial Arabic with precise corrections.",
+  "proofreading_button": "Comprehensive Proofreading",
+  "rewriting_title": "Professional Rewriting to Enhance Clarity and Style",
+  "rewriting_description": "Revamp content for better readability and engagement. Adapt style while preserving meaning for different platforms.",
+  "rewriting_button": "Professional Rewriting",
+  "contentWritersTitle": "Content Writers",
+  "contentWritersDescription": "Produce high-quality, engaging content for your audience using our tools, from writing articles to creating premium promotional texts.",
+  
+  "contentManagersTitle": "Content Managers",
+  "contentManagersDescription": "Plan, organize, and review content with ease and professionalism.",
+  
+  "proofreadersTitle": "Proofreaders",
+  "proofreadersDescription": "Achieve the highest levels of linguistic and grammatical accuracy.",
+  
+  "seoExpertsTitle": "SEO Experts",
+  "seoExpertsDescription": "Optimize your content to be search engine friendly.",
+  
+  "editorsMagazinesTitle": "Editors and Digital Magazines",
+  "editorsMagazinesDescription": "Publish organized editorial articles using specialized tools.",
+  
+  "educationalCopywritersTitle": "Educational Copywriters",
+  "educationalCopywritersDescription": "Create high-quality educational courses in an organized manner.",
+  
+  "podcastCreatorsTitle": "Podcast Creators",
+  "podcastCreatorsDescription": "Write professional episode scripts and podcast descriptions.",
+  
+  "videoEditorsTitle": "Video Editors",
+  "videoEditorsDescription": "Create video scripts and meta descriptions to engage audiences.",
+  "Customized_solutions_for":"Customized solutions for",
+  "boostTitle": "Boost your writing productivity",
+  "boostDescription": "Using a content writer is like having access to a whole team of content-writing experts who will write powerful content for you with the click of a button.",
+  "boostButton": "Start 3 Days Free Trial",
+  "boostImageAlt1": "Boost Productivity Image 1",
+  "boostImageAltLine": "Line Decoration",
+  "boostImageAlt2": "Boost Productivity Image 2",
+  "faqTitle": "Frequently Asked Questions",
+  "faqDescription": "Our support team is here to help. Contact us to answer your questions as soon as possible.",
+  "faq1Title": "What is Mutqin Company?",
+  "faq1Description": "Mutqin is an AI solutions company focused on developing advanced content creation and SEO tools.",
+  "faq2Title": "What is the importance of using artificial intelligence tools in the field of content creation?",
+  "faq2Description": "Mutqin's AI tools help improve content quality and provide an innovative solution to improve content performance across search engines.",
+  "faq3Title": "Does Mutqin provide training courses to use its tools?",
+  "faq3Description": "Yes, we offer customized training courses for our users to ensure they take full advantage of our tools, thus enhancing their content creation skills.",
+  "faq4Title": "How can businesses benefit from using Mutqin tools in their digital marketing strategies?",
+  "faq4Description": "Using our tools helps boost your brand's online visibility, improve search engine rankings, and achieve better results in digital marketing campaigns.",
+  "faq5Title": "Can I try out Mutqin tools before subscribing?",
+  "faq5Description": "Yes, we offer a free trial period for our tools where customers can evaluate the effectiveness of our tools before deciding to subscribe.",
+  "faq6Title": "Does Mutqin provide technical support to its customers?",
+  "faq6Description": "Yes, we have a dedicated technical support team working around the clock to assist our customers with any issues or queries that may arise.",
+  "platform_description_1": "Mutqin is your one-stop platform for AI-powered content writing. We offer advanced tools that help individuals and businesses create unique, engaging, and error-free content.",
+  "platform_description_2": "We strive to be your first destination for writing professional content using the latest artificial intelligence technologies.",
+  "features_title": "Features",
+  "feature_1": "Cross-platform compatibility",
+  "feature_2": "Accurate record",
+  "feature_3": "Real-time search",
+  "feature_4": "Voice interaction",
+  "feature_5": "Custom responses",
+  "feature_6": "Multilingual",
+  "feature_7": "Find out more",
+  "solutions_title": "Solutions",
+  "solution_1": "Writing articles",
+  "solution_2": "Social media content writing",
+  "solution_3": "Search Engine Optimization",
+  "solution_4": "Content Strategies",
+  "solution_5": "Email Marketing",
+  "solution_6": "Find out more",
+  "social_media_title_footer": "Follow us on social media",
+  "get_started_title": "Get Started Today",
+  "join_community_button": "Join the Community"
+
+ 
+
+
+}

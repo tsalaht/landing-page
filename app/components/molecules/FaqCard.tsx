@@ -3,7 +3,7 @@
 import { Plus, Minus } from "lucide-react";
 import { FC } from "react";
 import clsx from "clsx";
-
+import { useTranslation } from 'react-i18next';
 interface FaqCardProps {
   title: string;
   description: string;
@@ -12,10 +12,13 @@ interface FaqCardProps {
 }
 
 const FaqCard: FC<FaqCardProps> = ({ title, description, isOpen, onToggle }) => {
+  const { i18n } = useTranslation();
+
+  const isArabic = i18n.language === 'ar';
   return (
-    <div className="w-full flex justify-between p-8 border border-base_black rounded-md">
-      <div>
-        <h4 className="md:text-2xl text-xl font-semibold text-base_black">{title}</h4>
+    <div className={`w-full flex ${isArabic? ' flex-row-reverse':''} justify-between p-8 border border-base_black rounded-md`}>
+      <div className={`${isArabic? '  text-right':''}`}>
+        <h4 className="md:text-[20px] text-xl font-semibold text-base_black">{title}</h4>
         <div
           className={clsx(
             "overflow-hidden transition-all duration-300 ease-in-out",
